@@ -34,7 +34,7 @@ provider "azurerm" {
 
 # Declare the Virtual Machine Resource
 data "azurerm_virtual_machine" "vm" {
-  name                = var.virtual-machine-name1
+  name                = var.virtual-machine-name
   resource_group_name = var.resource-group-name
 }
 
@@ -43,7 +43,7 @@ resource "azurerm_management_lock" "vm" {
   name       = var.lock-name
   lock_level = var.lock-level
   notes      = var.lock-notes
-  scope      = data.azurerm_virtual_machine1.vm.id
+  scope      = data.azurerm_virtual_machine.vm.id
 }
 
 # Begin Outputs section
