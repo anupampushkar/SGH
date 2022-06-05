@@ -51,7 +51,6 @@ resource "azurerm_management_lock" "vm" {
 output "virtual-machine-id" {
   value = data.azurerm_virtual_machine.vm.id
 }
-
 output "vm-lock-id" {
   value = azurerm_management_lock.vm.id
 }
