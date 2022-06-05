@@ -3,7 +3,7 @@
 # Last Update:  2022-06-5
 # Copyright (c) 2022, Anupam Pushkar
 # Author: Anupam Pushkar
-# License: Cloud4C
+# License: Cloud4C Update
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
