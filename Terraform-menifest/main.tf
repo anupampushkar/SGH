@@ -32,6 +32,12 @@ provider "azurerm" {
 
 # Begin Resource section of the code
 
+resource "azurerm_resource_group" "mgmt_resource_group" {
+  name     = var.mgmt_resource_group_name
+  location = var.location
+  
+}
+
 # Declare the Virtual Machine Resource
 data "azurerm_virtual_machine" "vm" {
   name                = var.virtual-machine-name

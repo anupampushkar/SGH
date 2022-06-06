@@ -1,3 +1,14 @@
+variable "mgmt_resource_group_name" {
+  type        = string
+  description = "management components"
+  default     = "rg-adxdev_hub-mgmtservices-uaen-001"
+}
+variable "location" {
+  type        = string
+  description = "The location where the resource group should be created."
+  default     = "UAE North"
+}
+
 variable "resource-group-name" {
   description = "Azure Resource Group Name"
   type        = string
