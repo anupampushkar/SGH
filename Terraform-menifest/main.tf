@@ -30,7 +30,7 @@ provider "azurerm" {
   features {}
 }
 
-# Begin Resource section
+# Begin Resource section of the code
 
 # Declare the Virtual Machine Resource
 data "azurerm_virtual_machine" "vm" {
